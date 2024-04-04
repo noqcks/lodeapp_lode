@@ -8040,10 +8040,10 @@ ospath@^1.2.2:
   resolved "https://registry.yarnpkg.com/ospath/-/ospath-1.2.2.tgz#1276639774a3f8ef2572f7fe4280e0ea4550c07b"
   integrity sha1-EnZjl3Sj+O8lcvf+QoDg6kVQwHs=
 
-overlayscrollbars@^1.7.1:
-  version "1.13.1"
-  resolved "https://registry.yarnpkg.com/overlayscrollbars/-/overlayscrollbars-1.13.1.tgz#0b840a88737f43a946b9d87875a2f9e421d0338a"
-  integrity sha512-gIQfzgGgu1wy80EB4/6DaJGHMEGmizq27xHIESrzXq0Y/J0Ay1P3DWk6tuVmEPIZH15zaBlxeEJOqdJKmowHCQ==
+overlayscrollbars@^2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/overlayscrollbars/-/overlayscrollbars-2.7.0.tgz#1ada2d1e0440a19d8ea26c5022062eb51c3d4549"
+  integrity sha512-ApBoB8NZyPLqmfuhzYsNVYNRbqQ91fUEWOOhnCp3JJ2/vvKOKHq8jC4ZBgxH5zHKB+5FVidQ8pVIsRyPrry3Dg==
 
 p-cancelable@^2.0.0:
   version "2.1.1"
