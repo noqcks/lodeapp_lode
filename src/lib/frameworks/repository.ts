@@ -1,6 +1,6 @@
 import * as Fs from 'fs'
 import * as Path from 'path'
-import { Glob } from 'glob'
+import { globSync } from 'glob'
 import { dialog } from 'electron'
 import { v4 as uuid } from 'uuid'
 import { findIndex, omit } from 'lodash'
