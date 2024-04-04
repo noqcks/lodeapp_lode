@@ -216,12 +216,10 @@ export class Repository extends ProjectEventEmitter implements IRepository {
      */
     public async scan (): Promise<Array<FrameworkOptions>> {
         this.scanning = true
-        const glob = new Glob('*', {
+        const files = glob.sync('*', {
             cwd: this.path,
             dot: true
         });
-        glob.on('error', reject);
-        glob.on('end', resolve);
         return new Promise(async (resolve, reject) => {
             const frameworks: Array<FrameworkOptions | false> = await Promise.all(Frameworks.map(framework => {
                 return framework.spawnForDirectory({
