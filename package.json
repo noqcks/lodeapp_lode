@@ -41,7 +41,7 @@
     "simulate": "yarn run build:before && cross-env IS_DEV=true NODE_ENV=development yarn run pack:lode && ./node_modules/electron/dist/Electron.app/Contents/MacOS/Electron dist/main.js"
   },
   "dependencies": {
-    "@bugsnag/js": "^6.4.0",
+    "@bugsnag/js": "^7.22.4",
     "@primer/css": "^20.5.1",
     "@primer/octicons": "^17.9.0",
     "@sentry/electron": "^2.5.1",
