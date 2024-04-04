@@ -1920,10 +1920,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/latinize@^0.2.15":
-  version "0.2.15"
-  resolved "https://registry.yarnpkg.com/@types/latinize/-/latinize-0.2.15.tgz#a1718e53c5d6a37a554cbe4209e4ab15adc975f9"
-  integrity sha1-oXGOU8XWo3pVTL5CCeSrFa3Jdfk=
+"@types/latinize@^0.2.18":
+  version "0.2.18"
+  resolved "https://registry.yarnpkg.com/@types/latinize/-/latinize-0.2.18.tgz#18ff876bae9c4e01b8e5efc2a67f6e26cb17a982"
+  integrity sha512-QjX4tcVEOcqDakv96sLMA2ESMcxSJel5KHxmcBgeTlZI7v6gFx9Tjqmt5+Pp8ijfGGr6CxuXzDNYk8A/iZ/GiA==
 
 "@types/linkify-it@*":
   version "3.0.2"
@@ -7136,10 +7136,10 @@ kuler@^2.0.0:
   resolved "https://registry.yarnpkg.com/kuler/-/kuler-2.0.0.tgz#e2c570a3800388fb44407e851531c1d670b061b3"
   integrity sha512-Xq9nH7KlWZmXAtodXDDRE7vs6DU1gTU8zYDHDiWLSip45Egwq3plLHzPn27NgvzL2r1LMPC1vdqh98sQxtqj4A==
 
-latinize@^0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/latinize/-/latinize-0.4.1.tgz#1b82d6e0687f2722dfdf67a19302fc345a772738"
-  integrity sha512-A4miz97dNF+EbNgQdayPAEtud5eRpCGPwJy7JQFD1hBQcOzOgBS4m721zoREuPqpz1yKm8hYT2ANlh7pirapsA==
+latinize@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/latinize/-/latinize-2.0.0.tgz#725ca7b2feeef64f3d69a2d2eaae58dd724b135c"
+  integrity sha512-bMWAnS0C6s9rNqahOEzBEIb9RWECgD1sfmDPws/YoFGAVbC3cjNGCS3Y1THhaQ5wtTJfrq1RO69IM2dGA0DuEg==
 
 lazy-ass@^1.6.0:
   version "1.6.0"
