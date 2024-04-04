@@ -219,7 +219,10 @@ export class Repository extends ProjectEventEmitter implements IRepository {
         const glob = new Glob('*', {
             cwd: this.path,
             dot: true
-        })
+        }, (err, files) => {
+            if (err) reject(err);
+            else resolve(files);
+        });
         return new Promise(async (resolve, reject) => {
             const frameworks: Array<FrameworkOptions | false> = await Promise.all(Frameworks.map(framework => {
                 return framework.spawnForDirectory({
