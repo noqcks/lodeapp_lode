@@ -216,7 +216,7 @@ export class Repository extends ProjectEventEmitter implements IRepository {
      */
     public async scan (): Promise<Array<FrameworkOptions>> {
         this.scanning = true
-        const files = glob.sync('*', {
+        glob.sync('*', {
             cwd: this.path,
             dot: true
         });
