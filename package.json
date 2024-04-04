@@ -47,7 +47,7 @@
     "@sentry/electron": "^2.5.1",
     "ansi-to-html": "^0.7.2",
     "bottleneck": "^2.13.0",
-    "compare-versions": "^5.0.1",
+    "compare-versions": "^6.1.0",
     "date-fns": "^2.16.1",
     "decimal.js": "^10.2.0",
     "electron-store": "^8.1.0",
