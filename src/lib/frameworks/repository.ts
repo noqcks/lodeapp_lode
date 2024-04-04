@@ -225,7 +225,7 @@ export class Repository extends ProjectEventEmitter implements IRepository {
             const frameworks: Array<FrameworkOptions | false> = await Promise.all(Frameworks.map(framework => {
                 return framework.spawnForDirectory({
                     path: this.path,
-                    files: glob.found
+                    files: glob.sync('*')
                 })
             }))
 
