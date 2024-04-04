@@ -44,7 +44,7 @@
     "@bugsnag/js": "^6.4.0",
     "@primer/css": "^20.5.1",
     "@primer/octicons": "^17.9.0",
-    "@sentry/electron": "^2.5.1",
+    "@sentry/electron": "^4.21.0",
     "ansi-to-html": "^0.7.2",
     "bottleneck": "^2.13.0",
     "compare-versions": "^5.0.1",
