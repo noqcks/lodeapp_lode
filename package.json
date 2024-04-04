@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "@bugsnag/js": "^6.4.0",
-    "@primer/css": "^20.5.1",
+    "@primer/css": "^21.2.2",
     "@primer/octicons": "^17.9.0",
     "@sentry/electron": "^2.5.1",
     "ansi-to-html": "^0.7.2",
