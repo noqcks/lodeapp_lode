@@ -67,7 +67,7 @@
     "path-browserify": "^1.0.1",
     "process": "^0.11.10",
     "sha1-es": "^1.8.2",
-    "shell-env": "^2.2.0",
+    "shell-env": "^4.0.1",
     "shell-escape": "^0.2.0",
     "split.js": "^1.5.10",
     "stream-browserify": "^3.0.0",
