@@ -219,7 +219,7 @@ export class Repository extends ProjectEventEmitter implements IRepository {
         const files = globSync('*', {
             cwd: this.path,
             dot: true
-        })
+        }).found
         return new Promise(async (resolve, reject) => {
             const frameworks: Array<FrameworkOptions | false> = await Promise.all(Frameworks.map(framework => {
                 return framework.spawnForDirectory({
