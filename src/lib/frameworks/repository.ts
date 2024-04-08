@@ -220,12 +220,7 @@ export class Repository extends ProjectEventEmitter implements IRepository {
             cwd: this.path,
             dot: true
         })
-        const frameworks: Array<FrameworkOptions | false> = await Promise.all(Frameworks.map(framework => {
-            return framework.spawnForDirectory({
-                path: this.path,
-                files: files.found
-            })
-        }))
+        // This code block was incorrectly duplicated and is not used, so it's removed to resolve the error.
         return new Promise(async (resolve, reject) => {
             const frameworks: Array<FrameworkOptions | false> = await Promise.all(Frameworks.map(framework => {
                 return framework.spawnForDirectory({
